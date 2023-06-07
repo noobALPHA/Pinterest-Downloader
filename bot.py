@@ -29,18 +29,18 @@ TMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 MONGO_DB = os.environ.get("MONGO_DB", None)
 
-bot = TelegramClient('pinterestbot', APP_ID, APP_HASH).start(
+bot = TelegramClient('pinterestbot', API_ID, API_HASH).start(
     bot_token=BOT_TOKEN)
 
 msg = """
-`Halo, Saya Adalah bot pinterest, saya bisa mendownload video atau gambar via Pinterest.`
+`Hello, I am a pinterest bot, I can download videos or pictures via Pinterest.`
 
-Şunları yapabilirim:
-`Saya Bisa:`
-👉 **Untuk Men Download a video:** `/pvid pinterestURL`
+I can do:
+`I can:`
+👉 **To Download a video:** `/pvid pinterestURL`
 
 
-👉 **Untuk Men Download Gambar:** `/pimg pinterestURL`
+👉 **To Download Image:** `/pimg pinterest URL`
 """
 
 
