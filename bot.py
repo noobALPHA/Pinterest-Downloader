@@ -22,9 +22,9 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 logger = logging.getLogger(__name__)
 
 
-API_ID = os.environ.get("API_ID", None)
-API_HASH = os.environ.get("APIo_HASH", None)
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+API_ID = os.environ.get("2332973", None)
+API_HASH = os.environ.get("157025425ad2637898b4710e019f809f", None)
+BOT_TOKEN = os.environ.get("6053939543:AAHK6QMINgrYu6rq60sB3iH1GDpOh6jRxFA", None)
 TMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 MONGO_DB = os.environ.get("MONGO_DB", None)
