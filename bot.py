@@ -22,8 +22,8 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 logger = logging.getLogger(__name__)
 
 
-APP_ID = os.environ.get("APP_ID", None)
-APP_HASH = os.environ.get("APP_HASH", None)
+API_ID = os.environ.get("API_ID", None)
+API_HASH = os.environ.get("APIo_HASH", None)
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 TMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
