@@ -29,8 +29,8 @@ TMP_DOWNLOAD_DIRECTORY = os.environ.get(
     "TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 MONGO_DB = os.environ.get("MONGO_DB", None)
 
-bot = TelegramClient('pinterestbot', API_ID, API_HASH).start(
-    bot_token=BOT_TOKEN)
+bot = TelegramClient('pinterestbot', 2332973, 157025425ad2637898b4710e019f809f).start(
+    bot_token=6053939543:AAHK6QMINgrYu6rq60sB3iH1GDpOh6jRxFA)
 
 msg = """
 `Hello, I am a pinterest bot, I can download videos or pictures via Pinterest.`
